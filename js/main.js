@@ -47,5 +47,7 @@ Consigli del giorno:
 // # PROCEDURA
 
 for (let number = 1; number <= 100; number++) {
-  console.log(number);
+  if (number % 3 === 0) {
+    console.log(number);
+  }
 }
