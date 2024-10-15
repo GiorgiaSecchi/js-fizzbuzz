@@ -49,13 +49,23 @@ Consigli del giorno:
 for (let number = 1; number <= 100; number++) {
   const isFizz = number % 3 === 0;
   const isBuzz = number % 5 === 0;
-  const isFizzBuzz = isFizz === isBuzz;
+  const isFizzBuzz = isFizz && isBuzz;
 
-  if (isBuzz) {
-    console.log(number + " " + "Buzz");
+  if (isFizzBuzz) {
+    console.log("FizzBuzz");
   } else if (isFizz) {
-    console.log(number + " " + "Fizz");
-  } else if (isFizzBuzz) {
-    console.log(number + " " + "FizzBuzz");
+    console.log("Fizz");
+  } else if (isBuzz) {
+    console.log("Buzz");
+  } else if (!isFizzBuzz) {
+    console.log(number);
   }
 }
+
+// if (isBuzz) {
+//     console.log(number + " " + "Buzz");
+//   } else if (isFizz) {
+//     console.log(number + " " + "Fizz");
+//   } else if (isFizzBuzz) {
+//     console.log(number + " " + "FizzBuzz");
+//   }
