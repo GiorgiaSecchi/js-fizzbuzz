@@ -15,7 +15,9 @@
 
 *Scrivi un programma che stampi i numeri da 1 a 100,
 
-** ma per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz.
+** ma per i multipli di 3 stampi “Fizz” al posto del numero 
+
+** e per i multipli di 5 stampi Buzz.
 
 ** Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
@@ -32,3 +34,12 @@ Consigli del giorno:
 /***************************************/
 
 // # PROCEDURA
+
+/* PER OGNI VOLTA (FOR) che stampi un numero da 1 a 100 (Number)
+/*      SE (Number) diviso 3 da resto pari a 0  
+            stampa numero come “Fizz”
+/*      SE (Number) diviso 5 da resto pari a 0   
+            stampa numero come "Buzz"
+/*      ALTRIMENTI SE (Number) entrambi i multipli di 3 e 5 sono validi 
+            stampa numero come "FizzBuzz"
+*/
