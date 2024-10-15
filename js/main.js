@@ -62,11 +62,13 @@ for (let number = 1; number <= 100; number++) {
   if (fizzbuzz) {
     console.log(number + " " + "FizzBuzz");
   }
+
+  console.log(number);
 }
 
 // for (let number = 1; number <= 100; number++) {
-//   if ((fizz = number % 3 === 0)) {
-//     console.log(fizz);
+//   if (number % 3 === 0)) {
+//     console.log(number);
 //   }
 
 //   if (number % 5 === 0) {
