@@ -47,32 +47,15 @@ Consigli del giorno:
 // # PROCEDURA
 
 for (let number = 1; number <= 100; number++) {
-  const fizz = number % 3 === 0;
-  const buzz = number % 5 === 0;
-  const fizzbuzz = fizz && buzz;
+  const isFizz = number % 3 === 0;
+  const isBuzz = number % 5 === 0;
+  const isFizzBuzz = isFizz === isBuzz;
 
-  if (fizz) {
-    console.log(number + " " + "Fizz");
-  }
-
-  if (buzz) {
+  if (isBuzz) {
     console.log(number + " " + "Buzz");
-  }
-
-  if (fizzbuzz) {
+  } else if (isFizz) {
+    console.log(number + " " + "Fizz");
+  } else if (isFizzBuzz) {
     console.log(number + " " + "FizzBuzz");
   }
-
-  console.log(number);
 }
-
-// for (let number = 1; number <= 100; number++) {
-//   if (number % 3 === 0)) {
-//     console.log(number);
-//   }
-
-//   if (number % 5 === 0) {
-//   }
-
-//   console.log(number);
-// }
