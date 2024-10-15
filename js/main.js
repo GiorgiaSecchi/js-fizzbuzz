@@ -33,7 +33,7 @@ Consigli del giorno:
 
 /***************************************/
 
-// # PROCEDURA
+// # PSEUDOCODICE
 
 /* PER OGNI VOLTA (FOR) che stampi un numero da 1 a 100 (Number)
 /*      SE (Number) diviso 3 da resto pari a 0  
@@ -43,3 +43,9 @@ Consigli del giorno:
 /*      ALTRIMENTI SE (Number) entrambi i multipli di 3 e 5 sono validi 
             stampa numero come "FizzBuzz"
 */
+
+// # PROCEDURA
+
+for (let number = 1; number <= 100; number++) {
+  console.log(number);
+}
