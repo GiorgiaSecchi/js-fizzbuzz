@@ -61,11 +61,3 @@ for (let number = 1; number <= 100; number++) {
     console.log(number);
   }
 }
-
-// if (isBuzz) {
-//     console.log(number + " " + "Buzz");
-//   } else if (isFizz) {
-//     console.log(number + " " + "Fizz");
-//   } else if (isFizzBuzz) {
-//     console.log(number + " " + "FizzBuzz");
-//   }
